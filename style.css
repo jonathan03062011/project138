@@ -15,3 +15,20 @@ body{
     float: right;
     border: 1px white solid;
 }
+
+.modal-dialog{
+    width: 90%;
+}
+.instruction_image{
+display: inline;
+width: 45%;
+}
+.footer_div{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 3;
+}
