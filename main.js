@@ -1,5 +1,5 @@
-rigtWristX="";
-rigtWristY="";
+rightWristX="";
+rightWristY="";
 
 function preload()
 {
@@ -28,8 +28,8 @@ function gotposes(results)
  if(results.length>0)
 {
   console.log(results);
-  rigtWristX=results[0].pose.rigtWrist.x;
-  rigtWristY=results[0].pose.rigtWrist.y;
+  rightWristX=results[0].pose.rightWrist.x;
+  rightWristY=results[0].pose.rightWrist.y;
 }
 
 
@@ -46,5 +46,5 @@ function draw()
 
  fill("red");
  stroke("red");
- circle(rigtWristY,rigtWristX,50,50);
+ circle(rightWristY,rightWristX,50,50);
 }
